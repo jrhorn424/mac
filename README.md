@@ -1,4 +1,4 @@
 mac
 ===
 
-Mac-specific, homeshick-compatible dotfiles
+Homeshick-compatible dotfiles for mac
