@@ -1,8 +1,6 @@
 if [[ $IS_MAC -eq 1 ]]; then
   export BROWSER='open'
 
-  export EDITOR='subl'
-
-  export CC="/usr/bin/gcc-4.2"
+  export CC=gcc
   export ARCHFLAGS="-arch x86_64"
 fi
