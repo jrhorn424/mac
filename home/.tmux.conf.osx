@@ -1,5 +1,5 @@
 # Get copy/paste working on OSX
-set -g default-command "login-shell" # safely calls reattach-to-user-namespace
+set-option -g default-command "reattach-to-user-namespace -l zsh"
 
 # Setup 'v' to begin selection as in Vim
 bind-key -t vi-copy v begin-selection
