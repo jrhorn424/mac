@@ -1,0 +1,2 @@
+# OSX-specific configuration
+source-file $HOME/.tmux.conf.osx
