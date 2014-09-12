@@ -122,7 +122,7 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 ###############################################################################
 
 # Disable local Time Machine snapshots
-sudo tmutil disablelocal
+# sudo tmutil disablelocal
 
 # Disable hibernation (speeds up entering sleep mode)
 # sudo pmset -a hibernatemode 0
@@ -134,7 +134,7 @@ sudo tmutil disablelocal
 # sudo chflags uchg /Private/var/vm/sleepimage
 
 # Enable hibernate-only, bypassing sleep
-sudo pmset -a hibernatemode 1
+# sudo pmset -a hibernatemode 1
 
 # Disable the sudden motion sensor as it’s not useful for SSDs
 sudo pmset -a sms 0
