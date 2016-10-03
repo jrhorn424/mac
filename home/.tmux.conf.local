@@ -1,2 +1,5 @@
+set-environment -r DIRENV_DIFF
+set-option -g update-environment "DIRENV_DIFF"
+
 # OSX-specific configuration
 source-file $HOME/.tmux.conf.osx
