@@ -1,6 +1,6 @@
-# Set architecture flags
-export ARCHFLAGS="-arch x86_64"
-# Ensure user-installed binaries take precedence
+if [[ $IS_MAC -eq 1 ]]; then
+  export ARCHFLAGS="-arch x86_64"
+fi
+
 export PATH=/usr/local/bin:$PATH
-# Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
